@@ -1,0 +1,439 @@
+:root {
+	--primary-color: #ffffff;
+	--secondary-color: #6157a5;
+	--third-color: #e5e7e8;
+	--black-color: #000000;
+	--bar-color:  #c4c4c4;
+}
+
+body {
+	font-family: Montserrat;
+	background: gray;
+	padding: 40px;
+	margin: 0;
+}
+
+.container {
+	width: 80%;
+	margin: 10%;
+	display: flex;
+	justify-content: space-between;
+}
+
+/************************************************
+ * 						LEFT
+ * *********************************************/
+.col-8 {
+	width: 70%;
+	background: var(--primary-color);
+}
+
+/* Experience  */
+.col-8 .work-exp {
+	padding-top: 10%;
+}
+
+.col-8 .work-exp .title {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.col-8 .work-exp .title h5 {
+	margin: 3% 10%;
+	text-transform: uppercase;
+	color: var(--secondary-color);
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.col-8 .work-exp .title .bar {
+	width: 60%;
+	height: 5px;
+	background: var(--bar-color);
+	margin-top: 3%;
+}
+
+.col-8 .work-exp .experience {
+	margin: 0 15% 0 10%;
+}
+
+.col-8 .work-exp .experience .time {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.col-8 .work-exp .experience .time .bar {
+	width: 3%;
+	height: 2px;
+	background: var(--bar-color);
+	margin-top: 4.5%;
+}
+
+.col-8 .work-exp .experience .time span {
+	color: var(--bar-color);
+	font-size: 10px;
+	font-weight: bold;
+	margin-top: 3.3%;
+	margin-left: 6px;
+}
+
+.col-8 .work-exp .experience .position {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.col-8 .work-exp .experience .company {
+	font-size: 10px;
+	font-weight: bold;
+	color: var(--bar-color);
+}
+
+.col-8 .work-exp .experience p {
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 17px;
+}
+
+/* Pro Skills */
+.col-8 .pro-skills {
+	padding-top: 3%;
+}
+
+.col-8 .pro-skills .title {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.col-8 .pro-skills .title h5 {
+	margin: 3% 10%;
+	text-transform: uppercase;
+	color: var(--secondary-color);
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.col-8 .pro-skills .title .bar {
+	width: 60%;
+	height: 5px;
+	background: var(--bar-color);
+	margin-top: 3%;
+
+}
+
+.col-8 .pro-skills .level {
+	margin: 0 15% 0 10%;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.col-8 .pro-skills .level .col-6 {
+	width: 50%;
+}
+
+.col-8 .pro-skills .level .col-6 .skill {
+	width: 73%;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 0 5% 0;
+}
+
+.col-8 .pro-skills .level .col-6 .skill .skill-name {
+	width: 40%;
+}
+
+.col-8 .pro-skills .level .col-6 .skill .skill-name span {
+	font-size: 12px;
+	font-weight: 600;
+	margin: 6px 0 6px 0;
+}
+
+.col-8 .pro-skills .level .col-6 .skill .bar-bg {
+	width: 60%;
+}
+
+.col-8 .pro-skills .level .col-6 .skill .bar-bg .bar-1 {
+	width: 100%;
+	height: 8px;
+	background: var(--bar-color);
+	margin: 4.5% 0;
+}
+
+.col-8 .pro-skills .level .col-6 .skill .bar-bg .bar-2 {
+	/*width: 80%;*/
+	height: 8px;
+	background: var(--secondary-color);
+	margin: 4.5% 0;
+}
+
+/* Hobbies */
+.col-8 .hobbies {
+	padding-top: 3%;
+}
+
+.col-8 .hobbies .title {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.col-8 .hobbies .title h5 {
+	margin: 3% 10%;
+	text-transform: uppercase;
+	color: var(--secondary-color);
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.col-8 .hobbies .title .bar {
+	width: 60%;
+	height: 5px;
+	background: var(--bar-color);
+	margin-top: 3%;
+
+}
+
+.col-8 .hobbies .desc {
+	margin: 0 15% 0 10%;
+}
+
+.col-8 .hobbies .desc p {
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 17px;
+}
+
+/* Follow Me */
+.col-8 .follow-me {
+	padding-top: 3%;
+	padding-bottom: 10%;
+}
+
+.col-8 .follow-me .title {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.col-8 .follow-me .title h5 {
+	margin: 3% 10%;
+	text-transform: uppercase;
+	color: var(--secondary-color);
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.col-8 .follow-me .title .bar {
+	width: 60%;
+	height: 5px;
+	background: var(--bar-color);
+	margin-top: 3%;
+
+}
+
+.col-8 .follow-me .socials {
+	margin: 0 15% 0 10%;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.col-8 .follow-me .socials .col-6 {
+	width: 50%;
+}
+
+.col-8 .follow-me .socials .col-6 .social {
+	display: flex;
+	justify-content: flex-start;
+	margin: 0 0 3% 0;
+}
+
+.col-8 .follow-me .socials .col-6 .social .icon {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: var(--secondary-color);
+}
+
+.col-8 .follow-me .socials .col-6 .social span {
+	font-size: 12px;
+	font-weight: 600;
+	margin: 6px 6px;
+}
+
+/************************************************
+ * 					RIGHT
+ * *********************************************/
+
+.col-4 {
+	width: 30%;
+	background: #e5e7e8;
+}
+
+.col-4 .bg-1 {
+	width: 100%;
+	background: var(--secondary-color);
+}
+
+/* Top */
+.col-4 .top .title {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 28%;
+}
+
+.col-4 .top .title h5 {
+	margin: 3% 0 0 20%;
+	text-transform: uppercase;
+	color: var(--primary-color);
+	font-weight: normal;
+	font-size: 10px;
+}
+
+.col-4 .top .title .bar {
+	width: 40%;
+	height: 5px;
+	background: var(--bar-color);
+	margin-top: 3%;
+}
+
+/* Name */
+.col-4 .name {
+	margin: 0 15% 0 10%;
+}
+
+.col-4 .name h5 {
+	font-size: 25px;
+	color: var(--bar-color);
+	font-weight: normal;
+}
+
+.col-4 .name h5 strong {
+	color: var(--primary-color);
+}
+
+/* Contact */
+.col-4 .contact {
+	margin: 0 15% 0 10%;
+}
+
+.col-4 .contact .phone,
+.col-4 .contact .email,
+.col-4 .contact .address,
+.col-4 .contact .location {
+	color: var(--primary-color);
+	font-size: 13px;
+	margin-bottom: 10px;
+	letter-spacing: 2px;
+}
+
+/* Image */
+.col-4 .image {
+	margin: 10% 15% 0 10%;
+}
+
+.col-4 .image img {
+	width: 250px;
+	height: 250px;
+}
+
+/* About */
+.col-4 .about {
+	margin: 0% 15% 0 10%;
+}
+
+.col-4 .about h5 {
+	font-size: 20px;
+	font-weight: bold;
+	color: var(--primary-color);
+}
+
+.col-4 .about p {
+	font-size: 13px;
+	color: var(--primary-color);
+	letter-spacing: 1px;
+	padding: 10% 0;
+}
+
+/* Education */
+.col-4 .education {
+	height: 28.4%;
+	background: transparent;
+}
+
+.col-4 .education .edu-bg {
+	margin: 0% 0% 0 0%;
+}
+
+.col-4 .education .title {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 28%;
+}
+
+.col-4 .education .title h5 {
+	margin: 2% 0 0 10%;
+	text-transform: uppercase;
+	color: var(--secondary-color);
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.col-4 .education .title .bar {
+	width: 40%;
+	height: 5px;
+	background: var(--secondary-color);
+	margin-top: 3%;
+}
+
+.col-4 .education .experience {
+	margin: 0 15% 0 10%;
+}
+
+.col-4 .education .experience .time {
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: 6px;
+}
+
+.col-4 .education .experience .time .bar {
+	width: 7%;
+	height: 2px;
+	background: gray;
+	margin-top: 6.5%;
+}
+
+.col-4 .education .experience .time span {
+	color: gray;
+	font-size: 10px;
+	font-weight: bold;
+	margin-top: 3.3%;
+	margin-left: 6px;
+}
+
+.col-4 .education .experience .position {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.col-4 .education .experience .company {
+	font-size: 10px;
+	font-weight: bold;
+	color: var(--bar-color);
+}
+
+.col-4 .education .experience p {
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 17px;
+}
